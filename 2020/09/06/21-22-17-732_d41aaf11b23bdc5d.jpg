@@ -1,0 +1,847 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head prefix="og: http://ogp.me/ns#  fb: http://ogp.me/ns/fb#  article: http://ogp.me/ns/article#  website: http://ogp.me/ns/website#">
+		<title>SecureList.pl</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="robots" content="index, follow" />
+<meta name="description" content="SecureList.pl to prowadzony przez Kaspersky Lab serwis poświęcony zagrożeniom internetowym i metodom walki z nimi. Strona zawiera najświeższe informacje o cyberzagrożeniach i działaniach cyberprzestępców." />
+<meta name="keywords" content="securelist, wirusy, trojany, bezpieczeństwo" />
+<meta http-equiv="X-Frame-Options" content="deny">
+
+<meta property="fb:admins" content="100001901093965"/>
+<meta property="fb:app_id" content="385970338156202"/>
+
+
+
+<link type="image/x-icon" href="/img/favicon.ico" rel="icon" />
+<link type="image/x-icon" href="/img/favicon.ico" rel="shortcut icon" />
+
+<link type="text/css" media="screen" href="/css/min.css" rel="stylesheet" />
+
+
+<script type="text/javascript" src="/js/min.js"></script>
+
+
+<script>
+if (self == top) { 
+    document.documentElement.style.display = 'block';
+} else { 
+    top.location = self.location;
+}
+
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40748839-1']);
+  _gaq.push(['_setDomainName', 'securelist.pl']);
+  _gaq.push(['_trackPageview']);
+
+  (function() { 
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){ i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42856195-1', 'securelist.pl');
+  ga('send', 'pageview');
+
+</script>
+
+	</head>
+
+	<body>
+		<div id="fb-root"></div><div id="fb-root"></div>
+        <script>(function(d, s, id) { 
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1&appId=385970338156202";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+		
+
+		<div>
+			<a name="page_top"></a>
+			<div class="mrga"><div class="mrga mWidthB cc_bg"><div class="pd5"><div class="mWidth">
+
+				<!-- topline -->
+				<div class="tl_l"><div class="tl_r"><div class="tl_c">
+
+							<!-- select lang -->
+							<div class="fl lang">
+
+	<div style="width:100px" onclick="Balloon_On('lang_list2')" class="sel">
+		<div>
+			<div>
+				Polski
+			</div>
+		</div>
+	</div>
+
+	<!-- hide div - lang list -->
+	<div class="rel">
+		<div style="display:none;top:-25px;left:-7px" class="abs boxFormTop" id="lang_list2">
+
+			<div id="fsel_w1">
+				<table class="w100">
+					<tbody>
+						<tr>
+							<td class="cntr">
+								<div class="fl w40 pl10">
+									<div class="">
+										<b>Polski</b><br>
+										<a href="http://www.securelist.com/ru/">Russian</a><br>
+										<a href="http://www.securelist.com/en/">English</a><br>
+									</div>
+								</div>
+								<div class="fr w40">
+									<div class=" ">
+										<a href="http://www.viruslist.com/de/">German</a><br>
+										<a href="http://www.viruslist.com/fr/">French</a><br>
+										<a href="http://www.viruslist.com/sp/">Spanish</a><br>
+									</div>
+								</div>
+								<div class="cl"></div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+	</div>
+</div>
+							<!-- top menu -->
+							<div style="padding:3px 0 0 164px" class="fl topmenu">
+								<div class="ServiceMenu">
+	
+		<a href="/calendar.html" class="" title="Kalendarz"  >Kalendarz</a>
+
+	
+		<a href="/feeds.html" class="" title="Kanały RSS"  ><img style='margin-right: 4px;' src=https://securelist.pl/img/rss_small.gif />Kanały RSS</a>
+
+	
+		<a href="/contact.html" class="" title="Kontakt"  >Kontakt</a>
+
+	
+		<a href="/polls.html" class="" title="Ankiety"  >Ankiety</a>
+
+	</div>
+							</div>
+							<!-- login form -->
+							
+							<!-- search form -->
+							<div style="padding-top:3px" class="fr search">
+	<!--<img width="14px" height="16px" alt="" class="mrr8" src="/img/ssearch.gif"><span class="topmenu"><a onclick="return Balloon_On('searchForm');" class="dashed" href="javascript:void(0);">Szukaj</a></span>-->
+	<img width="14px" height="16px" alt="" class="mrr8" src="data:image/gif;base64,R0lGODlhDgAQAMQfAC+Ie////46/uOLu7KDIwpvGv5PBu8ng3Yq8tKzPyuTw7n21rYK4sMzi3rHSzUyZjnqzqrbV0NPm42WnnTaMgPP49+719DSLfkeWi+Du61uhl5bDvD6QhLrY1HiyqgAAACH5BAEAAB8ALAAAAAAOABAAAAVh4CcqBEMoYpoKQNsKqoi8CQsg6tA2Qd+0g5QBUOgZCwBDagFwGHsOwEJIfAaQSpEOcDAegKoZQFBrQQIxmwuAscQ+JFNmAtC8Y5UHwHPPcQAbfSkHFwARgiIJABSIIhIdIQA7"><span class="topmenu"><a onclick="return Balloon_On('searchForm');" class="dashed" href="javascript:void(0);">Szukaj</a></span>
+	<div class="rel"><div style="display:none;left:-125px;top:0px" class="abs boxFormTop" id="searchForm">
+			<form action="/znaleziono.html" method="post">
+	<div>
+		<input type="text" name="searchSimple" maxlength="120" style="width:158px" />
+	</div>
+	<div>
+		<select name="category" style="width:164px;">
+		<option value="all">-- Cała Strona --</option>
+<option value="70">Encyklopedia</option>
+<option value="56">Analizy</option>
+<option value="65">Blog</option>
+<option value="46">Słownik</option>
+
+		</select>
+	</div>
+	<input type="submit" class="btn_gr" name="searchSubmit" value="Szukaj">
+	<a href="/search.html" class="advancedSearch" title="Zaawansowane"  >Zaawansowane</a>
+</form>
+		</div>
+	</div>
+</div>
+
+
+							<div class="cl"></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+			<div class="mrga">
+	<div class="mrga mWidthB cc_bg">
+		<div class="pd5">
+			<div class="mWidth">
+
+				<!-- logo-line -->
+				<div class="logoline">
+					<!--<div class="fl logo"><a href="/" ><img width="132px" height="28px" alt="Securelist - Information about Viruses, Hackers and Spam" src="/img/logo_secur.gif"></a></div>-->
+					<div class="fl logo"><a href="/" ><img width="132px" height="28px" alt="Securelist - Information about Viruses, Hackers and Spam" src="data:image/gif;base64,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"></a></div>
+
+					<div class="fl alert">
+			<span>
+			<img class="m mrr8" title="Stan zagrożeń w internecie znajduje się obecnie na poziomie standardowym. Nie występują duże epidemie a eksperci z Kaspersky Lab nie zanotowali żadnych poważnych incydentów związanych z bezpieczeństwem." alt="Stan zagrożeń w internecie znajduje się obecnie na poziomie standardowym. Nie występują duże epidemie a eksperci z Kaspersky Lab nie zanotowali żadnych poważnych incydentów związanych z bezpieczeństwem." src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAASwAA/+4ADkFkb2JlAGTAAAAAAf/bAIQAAwICAgICAwICAwUDAwMFBQQDAwQFBgUFBQUFBggGBwcHBwYICAkKCgoJCAwMDAwMDA4ODg4OEBAQEBAQEBAQEAEDBAQGBgYMCAgMEg4MDhIUEBAQEBQREBAQEBARERAQEBAQEBEQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ/8AAEQgALAAsAwERAAIRAQMRAf/EAIgAAAIDAAMAAAAAAAAAAAAAAAUHBAYIAgMJAQABBQEBAAAAAAAAAAAAAAABAAIDBAUGBxAAAQMCBQIFBQADAQAAAAAAAQIDBBEFACESBgcxE1FhIhQIQYEyIxVxM0OTEQACAgEDAgUDBQAAAAAAAAAAARECAzESBCFRQWFxkQXhIgaBsdEyQv/aAAwDAQACEQMRAD8A9UHHEtp1KNMIACuW42o6g03VTizRttAKlqNQMkpqT1wCJ3K5M5Dstvlrh3i7wba+j/hMuEJhz/zW8Fj7gYMMj3+aCMLdZcit3CoXDdP65ba232DnT/awpxArT6nAHy9Sywri1KSKHPwwSStpJnnhDytbtvrNqhuPPLCUIGZJoCSaAV8ycAgvYzrdN2nkvcq7bbbo/G2YwsxZdxhLXHl3qQFaXA26PWzDbNUAJIW6qpqE/ky+Tb0Ri5+Snban0Wo1EbC43sNgdhWO0QbehY/apphCVKIz1PKKStR8SoknENrKCtky4q16QAo3FtrtsN+97HkN7ZuxBUZEIBuJJKercqMghp5B6ElIWOqVA4FMjXWSnTk7a7q2Sj2CvHW9TdEFt5sRZUdwxrhCS4HUx5SBqKUKHVtxPrbPh4HIWpTUrQ6Hi8hZqK6Gv71Ps+95YJpbugtOXY4l7avDjq1pRBhT5xS2dJUqNEdcRn5KofthJ9SpmcVb7ISPG++eOYXEsSPZpTTkmBFRHS+laUuNSGUaStxNSmmrNRV/nGPbNMnkt/mJo0l1jXz7kfj/AGM7ybYZkm97kky7U8867bw9JcLbSA4QhJCSkFOmhCj0xEpt4mZiWTkNq14jvp9Achve0u43nZEJTiWUpXGivR3FazJKMnaFXbqARqVlWvjhqT0KKVm9pXfirsreXFnJ+89mbhXpjTIkK7MJKypSXI0ttuqgomhWh6hp4Y1+OmqNM9C/F8lovjfhH8G3O4r+V98Tnff5APIcRaIT7xaD7JQ8zLZUSErjyWlMO1p4JWT9sFagujBXxq4Rsu2997o2dfJhcetqizHTIWhZkQHSpSH0JX6VAhIrq/EhQ6jLJzUe+GeLfI8a2PlOl1Hp4ruNeULpt/fKtq7LuzX81KVGVFjFhTqy5TtqDPqKdQKtRCaenxOFXCzMtRKzScoqfJW7Lx8WSjcs1p25s3V1aylx5DjKG1j9lFgEnWoJOk/jSudcrlMaRYWC25V8Xp2Bvx/5I5C5U58iTo0Vppi921iTe1r1uLgWOE6HYqQTQByW/TqM2hqAzBxaSip6J8Bw74aO1/7W/Zae56B+zV/L00z64B2cfaTrlARMaKSK1wSS1ZMafIv40b1N1Xv3ipSpT6Asy7CHRHkgKpqXBkHJKiBVTSwpDlBkFerChPozC5/x2Pk1i60916CI2Dwny5t7ebm9rPuYMTkKV7m37jgTochBVSrbhbRIQ4R4oUPoRhbF3OWyfjcpKlo9UMDcXGHKnNV5jRL9GTuQRnVFpT0N627fiEkanHvcDvSlAU9CEgH61FcFJIu8L4DHiur2e5r9F9TV3BvBtl4qtDzbB97d7mtMi+3p1AS9LeSKDIfihAyQjokYDcnY48cDe7Se326ZYRag5nzwgkKb7Kh71MIZaAO5/K1ZVwCH7STD/l6hp6+eEOW0MtdvSO30wSZHZhBP/9k=">
+			<!--<img class="m mrr8" title="Stan zagrożeń w internecie znajduje się obecnie na poziomie standardowym. Nie występują duże epidemie a eksperci z Kaspersky Lab nie zanotowali żadnych poważnych incydentów związanych z bezpieczeństwem." alt="Stan zagrożeń w internecie znajduje się obecnie na poziomie standardowym. Nie występują duże epidemie a eksperci z Kaspersky Lab nie zanotowali żadnych poważnych incydentów związanych z bezpieczeństwem." src="/img/alerticon_1.jpg">-->
+		</span>
+		<span title="Stan zagrożeń w internecie znajduje się obecnie na poziomie standardowym. Nie występują duże epidemie a eksperci z Kaspersky Lab nie zanotowali żadnych poważnych incydentów związanych z bezpieczeństwem." class="m">
+			Poziom zagrożenia: 1
+		</span>
+	</div>
+					
+
+					<div class="fr">
+	<span>
+
+		
+					<div onclick="window.location='http://twitter.com/KasperskyLabPL';" class="follow cur">
+				<div>
+					<span>Śledź nas na</span>
+					<!--<img src="/img/rot_twitter.gif">-->
+					<img src="data:image/gif;base64,R0lGODlhPgAOAOYAAP3+//////7+/2za/y7L/87y/zLM//T8/7bs/6Xo/43i//j9/3jd/zHL/+n6/yDH/yXI/7zu/2bZ/zLL/yPI/0jR/2ra//H8/1XU/1nW/yHH/+36/0HP/zDL/53m/zTM//H7/+b4/8Tw/8Dv/zzO/ynJ/63q/5Xk/zjN/yvK/7Hr/+77/4bg/7jt/zXM//z+/0zT/4Pf/zDM/yzK/y3K/0bQ/9Hy/9b0/8nx/yrJ/zbN//7//9n1/xbF/x3G/zrN/5jl/xzG/5vm/z7P/yfJ/0TQ/xrF/2vZ/4jh/3ze/2LX/3Db/6jp/zPL/4vi/3fc/zXN//3//37e/1zW/3Pc/5Tj/yjK/+H4/zDK/y3L/0PQ///+/znO/8Hv/1LU/7Ls/3zd/4Tg/yPH/7Tr/1LT/6Dn/2PY/6Po//v+/yzL/w/D/0vT/973/0/T//z9/9Lz/zvO/zHK/4/i/5Lk/+/7/yzJ//j+//v9/xzF/wTA/0vR/2nZ/ynI/xDE/+T4/4ni/yH5BAAAAAAALAAAAAA+AA4AAAf/gAEbAQEAhoeIiYkBCweECwuFh4yRipaXADceOC8CmJgBICYJGwtfCQ5bngEXKkwOkp+YU2peV4SEnrKGL2MQPWUmUEEeaG4COyYQeEAvsbuJHEEVb4XOuAG6uJOMTL8nfwYPTiAgjCwaFE8X2Yc72LqG2IQVJVpICUJAZzasK9k7ojiIJIARrBBCFDg4YYAIEFwvkBApEeMdIQCPytm5iDHAgQsgHFWggYLAjDRpiGAYwcBCNQBfMCi4sIUOkikRAhQYEaBKgxQMcOAo4EABBBoDRAgdtKBFEgtHkrSIFIBOgidUlgxoMdIFhAcPNBjRAgaCj4cgJPSR0W9EiR5L/7roaTDmBJQPJGpoqcEiTAe8NWoMAXNBiDgKXycoQEOHAQENQXzkyVBviBmtAwaoqFKCwMMNEogQ6RJAxYwUA8p06IHECQoXDR4E6aElCYkPDYIYUcMBAYcHGVrgOHJ0RIIcNAigeK2gwoM2Behs2LAiipASTTyEGgDhR4EACDpkWXIChRgFJ+A0GVIDBpkTZ3Rg4eDFyxo5clIYyKBgjhkUREghgRUosCDCCAVcUAEFJJCGjQcpYCFHACEoYQUU37WARRYDsGAABU6oUAMBZLwRwgoLjCBOBjyssMIBTuTwWgp8fPBDE2BkkMMQ3+GiBAQTYODBGCYwwUYEMtCwhv0KZfxgAAEMjLAEFjNIwcQHGrBwQxsdkBCGCgj4cUMN3cUwBgIOlEGEARXgw0IFR3SBwY7VCOAJEyl04MIEHTRQQgYFZECEDg0Y4IKhBjTwARZcdNGCOFLcwUAJLjTRQQkShJCEBh/gRoQZBcBgBRdTMIDBDCS0kEEJJHx3CB1OGNDBBLTOoMUNOFRAwARxcNEGBwZMYMAPQuxgmg8sRHEDBlhM0EAOGPjBAwZ1NDBBCRU4EEERBJQgRgpZUHGFEg9UwEMsjLAkQWYSMOEMGwqs+4oISUjAgIOaLnEuhUAMsMcAYxDiRxVHWGDBFxjxgETBDJjATgQWmKDKIYEAADs=">
+				</div>
+			</div>
+		
+	</span>
+</div>
+
+					<div class="cl"></div>
+				</div>
+
+				<!-- main menu -->
+				<div class="mmenu">
+	
+			<div class="part">
+			<div class=" first">
+				<div>
+					<p>
+						<a href="/threats.html" title="Zagrożenia"  >Zagrożenia</a>
+					</p>
+				</div>
+			</div>
+		</div>
+			<div class="part">
+			<div class="">
+				<div>
+					<p>
+						<a href="/analysis.html" title="Analizy"  >Analizy</a>
+					</p>
+				</div>
+			</div>
+		</div>
+			<div class="part">
+			<div class="">
+				<div>
+					<p>
+						<a href="/blog.html" title="Blog"  >Blog</a>
+					</p>
+				</div>
+			</div>
+		</div>
+			<div class="part">
+			<div class="">
+				<div>
+					<p>
+						<a href="/statistics.html" title="Statystyki"  >Statystyki</a>
+					</p>
+				</div>
+			</div>
+		</div>
+			<div class="part">
+			<div class="">
+				<div>
+					<p>
+						<a href="/descriptions.html" title="Encyklopedia"  >Encyklopedia</a>
+					</p>
+				</div>
+			</div>
+		</div>
+			<div class="part">
+			<div class=" last">
+				<div>
+					<p>
+						<a href="/glossary.html" title="Słownik"  >Słownik</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	
+	<div class="cl"></div>
+</div>
+
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+			<!-- Content -->
+			<div class="mrga">
+    <div class="mrga mWidthB cc_bg">
+        <div class="pd5">
+            <div class="mWidth">
+                        <div id="glassSlider" class="glassSlideshow" style="width: 990px; height: 270px; position: relative;">
+            <ul  style="width: 990px; height: 270px">
+                                <li id="glassSlider_1"  class="glassSlideshowActive" style="  width: 990px; height: 270px">
+                  <span style="color:#000000;"><img class="promoGlassImg" src="img/promo/promo13_.jpg" alt="" /></span>
+<div class="promoGlassDiv" style="left:-2px;width:657px;">
+<p class="font1" style="color:#fff;"><span style="color:#000000;"> </span></p>
+<table style="margin-left:120px;margin-top:30px;width:320px;left:120px;height:173px;top:61px;" border="0">
+<tbody>
+<tr>
+<td style="width:100%;">
+<div style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-transform:none;word-spacing:0px;margin:0cm 0cm .0001pt;"><span style="font-family:Arial, sans-serif;"><span style="font-size:13px;"><span style="font-size:medium;"><strong><span style="font-family:Arial, sans-serif;">Statystyki zagrożeń na żywo</span></strong></span><br /><br />Teraz, dzięki naszemu modułowi statystyk, możesz w czasie rzeczywistym obserwować aktywność szkodliwych </span></span><span style="font-family:Arial, sans-serif;font-size:13px;">programów </span><span style="font-size:13px;font-family:Arial, sans-serif;">i ataków internetowych w poszczególnych częściach świata. <br /></span></div>
+<br /><span style="font-size:small;"><a href="http://securelist.pl/statistics.html#/pl/map/oas/month"><span style="font-family:Arial, sans-serif;">Przejdź do statystyk</span></a></span></td>
+</tr>
+</tbody>
+</table>
+<p class="font1" style="color:#fff;"><br /><br /></p>
+</div>
+                </li>
+                                <li id="glassSlider_2"  style="display: none;  width: 990px; height: 270px">
+                  <span style="color:#000000;"><img class="promoGlassImg" src="img/promo/promo17_.png" alt="" /></span><div class="promoGlassDiv" style="left:-2px;width:657px;"><p class="font1" style="color:#fff;"><span style="color:#000000;"> </span></p><table style="margin-left:480px;margin-top:10px;width:429px;left:480px;height:110px;" border="0"><tbody><tr><td style="width:100%;"><span style="font-family:arial, helvetica, sans-serif;color:#ffffff;"><span style="font-size:medium;"><strong><span style="font-family:Arial, sans-serif;">Cyberbronie</span></strong></span><br /><br /></span><span style="color:#000000;"><span style="font-family:Arial, sans-serif;"><span style="font-size:13px;"><span style="color:#ffffff;">Gauss to najnowsza cyberbroń z rodziny, w skład której wchodzą Stuxnet, Duqu oraz Flame. Gauss powstał w połowie 2011 r., a na wolności znalazł się po raz pierwszy na przełomie sierpnia i września 2011 r. Gauss został wykryty podczas naszego długotrwałego dochodzenia. </span><br /><br /><span style="font-family:Arial, sans-serif;">
+									<span style="font-size:13px;"><span style="color:#ffffff;">Szczegółowa analiza:</span>
+										<ul>
+											<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+												<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://securelist.pl/blog/7138,pelna_analiza_serwerow_centrum_kontroli_flame_a.html">
+													<span style="font-size:13px;">Serwery kontroli Flame'a</span>
+												</a>
+											</li>
+											<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+												<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://securelist.pl/analysis/7087,gauss_nietypowa_dystrybucja.html">
+													<span style="font-size:13px;">Gauss: nietypowa dystrybucja</span>
+												</a>
+											</li>
+											<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+												<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://www.securelist.pl/analysis/6053,stuxnet_duqu_ewolucja_sterownikow.html">
+													<span style="font-size:13px;">Stuxnet/Duqu: Ewolucja sterowników</span>
+												</a>
+											</li>
+										</ul>
+									</span>
+								</span></span></span></span></td></tr></tbody></table><p class="font1" style="color:#fff;"><br /><br /></p></div>
+
+                </li>
+                                <li id="glassSlider_3"  style="display: none;  width: 990px; height: 270px">
+                  <span style="color:#000000;"><img class="promoGlassImg" src="img/promo/promo15_.png" alt="" /></span><div class="promoGlassDiv" style="left:-2px;width:657px;"><p class="font1" style="color:#fff;"><span style="color:#000000;"> </span></p><table style="margin-left:440px;margin-top:2px;width:420px;left:480px;height:110px;" border="0"><tbody><tr><td style="width:100%;"><span style="color:#ffffff;"><span style="font-family:arial, helvetica, sans-serif;"><span style="font-size:medium;"><strong><span style="font-family:Arial, sans-serif;"><span style="font-family:Arial, sans-serif;">Botnet Flashfake atakujący systemy OS X</span></span></strong></span><br /><br /></span><span style="font-family:Arial, sans-serif;"><span style="font-size:13px;"><span style="font-family:Arial, sans-serif;"><span style="font-size:13px;">Nasi eksperci przeanalizowali Flashfake, obszerny botnet, który zainfekował ponad 670 000 komputerów Mac na całym świecie. Cyberprzestępcy wykorzystali do infekcji komputerów luki w Javie.</span></span><br /></span></span></span><br /><br />
+					<ul>
+						<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+							<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://www.securelist.pl/blog/7029,potwierdzono_istnienie_botnetu_flashfake_mac_os_x.html">
+								<span style="font-size:13px;">Potwierdzono istnienie botnetu Flashfake Mac OS X</span>
+							</a>
+						</li>
+						<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+							<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://www.securelist.pl/blog/7028,10_prostych_wskazowek_pozwalajacych_zwiekszyc_bezpieczenstwo_twojego_maka.html">
+								<span style="font-size:13px;">10 prostych wskazówek pozwalających zwiększyć bezpieczeństwo Twojego Maka</span>
+							</a>
+						</li>
+						<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+							<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://www.securelist.pl/blog/7030,darmowe_narzedzie_do_usuwania_flashfake.html">
+								<span style="font-size:13px;">Darmowe narzędzie do usuwania Flashfake'a</span>
+							</a>
+						</li>
+						<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+							<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://www.securelist.pl/analysis/6068,anatomia_flashfakea_czesc_1.html">
+								<span style="font-size:13px;">Anatomia Flashfake'a. Część 1</span>
+							</a>
+						</li>
+						<li style="background:none;list-style-type:disc;color:white;position:relative;width:350px;margin-left:18px">
+							<a style="font-family:Arial, sans-serif;text-decoration:underline;color:#ffffff;" href="http://www.securelist.pl/analysis/6070,anatomia_flashfakea_czesc_2.html">
+								<span style="font-size:13px;">Anatomia Flashfake'a. Część 2</span>
+							</a>
+						</li>
+					</ul>
+
+				</td></tr></tbody></table><p class="font1" style="color:#fff;"><br /><br /></p></div>
+                </li>
+                                <li id="glassSlider_4"  style="display: none;  width: 990px; height: 270px">
+                  <span style="color:#000000;"><img class="promoGlassImg" src="img/promo/promo10_.jpg" alt="" /></span><div class="promoGlassDiv" style="left:-2px;width:657px;"><p class="font1" style="color:#fff;"><span style="color:#000000;"> </span></p><table style="margin-left:460px;margin-top:10px;width:458px;left:460px;height:110px;" border="0"><tbody><tr><td style="text-align:left;width:350px;"><span style="color:#ffffff;"><span style="font-family:arial, helvetica, sans-serif;"><span style="font-size:large;"><strong><span style="font-family:Arial, sans-serif;"><span style="font-family:Arial, sans-serif;">Botnety</span></span></strong></span><br /><br /><br /></span><span style="font-family:Arial, sans-serif;font-size:small;"><span style="font-family:Arial, sans-serif;">Botnety, czyli sieci zainfekowanych komputerów, istnieją od ponad dekady. Mimo ostrzeżeń i starań ekspertów skala tego problemu ciągle rośnie, a użytkownicy często lekceważą zagrożenie ze strony botnetów.</span></span><span style="font-family:Arial, sans-serif;"><span style="font-size:13px;"><br /></span></span></span></td><td style="text-align:left;width:250px;"><span style="color:#ffffff;font-size:small;"><span style="font-family:arial, helvetica, sans-serif;"><strong><span style="font-family:Arial, sans-serif;"><span style="font-family:Arial, sans-serif;"><span style="font-family:Arial, sans-serif;"><span style="text-decoration:underline;"><a href="http://www.securelist.pl/analysis/5907,ekonomia_botnetow.html"><span style="color:#ffffff;text-decoration:underline;margin-left:5px;">Ekonomia botnetów</span></a></span><br /><span style="text-decoration:underline;"><a href="http://www.securelist.pl/analysis/5859,biznes_botnetowy.html"><span style="color:#ffffff;text-decoration:underline;margin-left:5px;">Biznes botnetowy</span></a></span></span></span></span></strong></span></span></td></tr></tbody></table><p class="font1" style="color:#fff;"><br /><br /></p></div>
+                </li>
+                            </ul>
+            <ol style="top: 220px; left: 50px; position: relative; z-index: 99999999;">
+                                <li>
+                    <a href="#" rel="1"  class="glassSlideshowActive" > </a>
+                </li>
+                                <li>
+                    <a href="#" rel="2" > </a>
+                </li>
+                                <li>
+                    <a href="#" rel="3" > </a>
+                </li>
+                                <li>
+                    <a href="#" rel="4" > </a>
+                </li>
+                            </ol>
+        </div>
+        <div class="clear"></div>
+        <script>
+            var waitNextSlideglassSlider = 0;
+            jQuery("#glassSlider ol li a").click(function(){ 
+                activeId = jQuery(this).attr("rel");
+                waitNextSlideglassSlider=1;
+                setGlassSlideshowSlide("glassSlider", activeId);
+            });
+            setTimeout(function(){  newGlassSlideshowSlide("glassSlider", "waitNextSlideglassSlider")}, 10000);
+        </script>
+	</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mrga">
+	<div class="mrga mWidthB cc_bg">
+		<div class="pd41">
+			<div class="mWidthPd">
+				<!-- padd -->
+				<div style="height:24px" class="h1px"></div>
+
+				<!-- analysis - left column -->
+				<div class="fl lWidth">
+					<div class="mTitle"><a href="/analysis.html">Analizy</a></div>
+					
+	<div class="fl w33">
+		<div class="pdr36">
+
+			<a href="/analysis/7483,spam_i_phishing_w_2018_r.html">
+									<img title="W 2018 r. cyberprzestępcy nadal monitorowali globalne wydarzenia i wykorzystywali je do osiągania własnych celów. Odnotowaliśmy stały wzrost liczby ataków phishingowych na zasoby związane z kryptowalutą i spodziewamy się nowych oszustw w 2019 r." class="mask" src="/files/Thumbs/spam_thumb.png" />
+							</a><br><br>
+			<div style="padding-left:5px">
+				<p class="date"> 2 kwietnia 2019</p>
+				<p><a href="/analysis/7483,spam_i_phishing_w_2018_r.html">Spam i phishing w 2018 r.</a></p>
+				<p class="font1">W 2018 r. cyberprzestępcy nadal monitorowali globalne wydarzenia i wykorzystywali je do osiągania własnych celów. Odnotowaliśmy stały wzrost liczby ataków phishingowych na zasoby związane z kryptowalutą i spodziewamy się nowych oszustw w 2019 r.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="fl w33">
+		<div class="pdr36">
+
+			<a href="/analysis/7482,cyberzagrozenia_finansowe_w_2018_r.html">
+									<img title="Prezentowany raport jest kolejnym z serii raportów firmy Kaspersky Lab zawierających przegląd ewolucji krajobrazu zagrożeń finansowych na przestrzeni kilku lat. Obejmuje powszechne zagrożenia phishingowe, z jakimi stykają się użytkownicy, jak również finansowe szkodliwe oprogramowanie dla systemów Windows oraz Android.   " class="mask" src="/files/Thumbs/thumb_financial.png" />
+							</a><br><br>
+			<div style="padding-left:5px">
+				<p class="date">20 marca 2019</p>
+				<p><a href="/analysis/7482,cyberzagrozenia_finansowe_w_2018_r.html">Cyberzagrożenia finansowe w 2018 r.</a></p>
+				<p class="font1">Prezentowany raport jest kolejnym z serii raportów firmy Kaspersky Lab zawierających przegląd ewolucji krajobrazu zagrożeń finansowych na przestrzeni kilku lat. Obejmuje powszechne zagrożenia phishingowe, z jakimi stykają się użytkownicy, jak również finansowe szkodliwe oprogramowanie dla systemów Windows oraz Android.   </p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="fl w33">
+		<div class="pdr36">
+
+			<a href="/analysis/7481,ewolucja_mobilnego_szkodliwego_oprogramowania_w_2018_r.html">
+									<img title="W 2018 r. użytkownicy urządzeń przenośnych doświadczyli prawdopodobnie największego jak dotąd natarcia cyberprzestępców. W ciągu roku obserwowaliśmy zarówno nowe techniki infekowania urządzeń przenośnych jak i częstsze wykorzystywanie wypróbowanych metod dystrybucji szkodliwego oprogramowania." class="mask" src="/files/Thumbs/thumb_mobile_looking_glass.jpg" />
+							</a><br><br>
+			<div style="padding-left:5px">
+				<p class="date">12 marca 2019</p>
+				<p><a href="/analysis/7481,ewolucja_mobilnego_szkodliwego_oprogramowania_w_2018_r.html">Ewolucja mobilnego szkodliwego oprogramowania w 2018 r.</a></p>
+				<p class="font1">W 2018 r. użytkownicy urządzeń przenośnych doświadczyli prawdopodobnie największego jak dotąd natarcia cyberprzestępców. W ciągu roku obserwowaliśmy zarówno nowe techniki infekowania urządzeń przenośnych jak i częstsze wykorzystywanie wypróbowanych metod dystrybucji szkodliwego oprogramowania.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+					<div class="cl h1px"></div>
+
+				</div>
+
+				<!-- Blog - right column -->
+				<div class="fr rWidth">
+					<div class="mTitle"><a href="blog">Blog</a></div>
+
+					
+	<div>
+
+		<p class="date">18 stycznia 2019</p>
+		<p class="font1"><a href="/author/7,kaspersky_lab.html" class="author">Kaspersky Lab </a></p>
+		<p>
+			<!--<a style="color:#000" class="nounder" href="weblog?cat=7"><i>Research</i></a>
+			&nbsp;|&nbsp;-->
+
+			<span><a href="/blog/7461,zdalnie_kontrolowane_domowe_ladowarki_pojazdow_elektrycznych_zagrozenia_i_luki_w_zabezpieczeniach.html">Zdalnie kontrolowane domowe ładowarki pojazdów elektrycznych – zagrożenia i luki w zabezpieczeniach</a></span>
+		</p>
+
+		<div style="height:12px" class="h1px">&nbsp;</div>
+	</div>
+
+
+	<div>
+
+		<p class="date">27 grudnia 2018</p>
+		<p class="font1"><a href="/author/16,david_jacoby.html" class="author">David Jacoby</a></p>
+		<p>
+			<!--<a style="color:#000" class="nounder" href="weblog?cat=7"><i>Research</i></a>
+			&nbsp;|&nbsp;-->
+
+			<span><a href="/blog/7459,czy_wiesz_ile_jestes_wart.html">Czy wiesz, ile jesteś wart?</a></span>
+		</p>
+
+		<div style="height:12px" class="h1px">&nbsp;</div>
+	</div>
+
+
+	<div>
+
+		<p class="date">24 sierpnia 2018</p>
+		<p class="font1"><a href="/author/95,wiktor_czebyszew.html" class="author">Wiktor Czebyszew</a></p>
+		<p>
+			<!--<a style="color:#000" class="nounder" href="weblog?cat=7"><i>Research</i></a>
+			&nbsp;|&nbsp;-->
+
+			<span><a href="/blog/7447,badanie_dot_aplikacji_umozliwiajacych_korzystanie_ze_wspolnych_samochodow_car_sharing.html">Badanie dot. aplikacji umożliwiających korzystanie ze wspólnych samochodów (car sharing)</a></span>
+		</p>
+
+		<div style="height:12px" class="h1px">&nbsp;</div>
+	</div>
+
+
+	<div>
+
+		<p class="date">14 lipca 2017</p>
+		<p class="font1"><a href="/author/7,kaspersky_lab.html" class="author">Kaspersky Lab </a></p>
+		<p>
+			<!--<a style="color:#000" class="nounder" href="weblog?cat=7"><i>Research</i></a>
+			&nbsp;|&nbsp;-->
+
+			<span><a href="/blog/7406,zadnej_taryfy_ulgowej_dla_szkodnika_expetr.html">Żadnej taryfy ulgowej dla szkodnika ExPetr</a></span>
+		</p>
+
+		
+	</div>
+
+
+					
+
+				</div>
+
+				<div class="cl"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="mrga"><div class="mrga mWidthB cc_dwn"></div></div>
+<div class="rz"></div>
+<div class="mrga"><div class="mrga mWidthB cc_top"></div></div>
+<div class="mrga">
+	<div class="mrga mWidthB cc_bg">
+		<div class="pd41">
+			<div class="mWidthPd">
+
+				<!-- padd -->
+				<div style="height:8px" class="h1px"></div>
+
+				<!-- news - left column -->
+				<div class="fl lWidth">
+
+					<!-- statistic -->
+					<div class="fl w50">
+	<div class="pdr36">
+		<div class="mTitle">
+			<a href="http://www.kaspersky.com/viruswatch3">Kaspersky Virus Watch</a>
+		</div>
+		<p>Rodzaje zagrożeń dodanych do sygnatur w ciągu ostatnich 24 godzin:</p>
+		<span>
+			
+			<table cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						
+						<td style="vertical-align:middle">
+							<div class="pdl12 font1">
+																<span class="mrl8 m">Worm</span><br>
+																<span class="mrl8 m">Trojan-Dropper</span><br>
+															</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</span>
+		<br>
+
+		<table class="stat">
+			<tbody>
+				<tr>
+					<td>Łączna liczba sygnatur:</td><td>10363022</td>
+				</tr>
+				<tr>
+					<td>W ostatnim uaktualnieniu:</td><td>1090</td>
+				</tr>
+				<tr>
+					<td>W ciągu ostatniej doby:</td><td>21964</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</div></div>
+
+					<!-- new description -->
+					<div class="fl w50">
+	<div class="pdr36">
+
+		<div class="mTitle">
+			<a href="/descriptions.html">Nowe opisy</a>
+		</div>
+
+			<p>
+		<span class="date mrr8">31 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan-Downloader.JS.Agent.gdn" title="If your computer has not been protected with anti-virus software and has been infected with malware, you will need to take the following actions to delete this:
+
+Delete the original program file (its...">Trojan-Downloader.JS.Agent.gdn</a>
+	</p>
+	<p>
+		<span class="date mrr8">31 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan.Win32.Scar.dgje" title="A trojan program. It is a Windows application (PE-EXE file). 742912 bytes. Packed by an unknown packer. Unpacked size - around 788 kB.  Written in Delphi.
+
+Installation
+
+When launching, the...">Trojan.Win32.Scar.dgje</a>
+	</p>
+	<p>
+		<span class="date mrr8">31 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan.Win32.KillAV.gcg" title="The malicious library exports the "testall" function which leads to the following actions being carried out.
+
+If the system launches the "avp.exe" process, the trojan tries to download the following...">Trojan.Win32.KillAV.gcg</a>
+	</p>
+	<p>
+		<span class="date mrr8">30 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan.Win32.Agent2.dmdi" title="The malicious library is a component of a trojan program designed to steal the user's authentication data. It is a Windows dynamic-link library (PE-DLL file). 8192 bytes. Written in C++.">Trojan.Win32.Agent2.dmdi</a>
+	</p>
+	<p>
+		<span class="date mrr8">30 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan-Downloader.JS.Agent.gbj" title="A trojan program that uses the vulnerabilities in Oracle Java and Adobe Reader/Acrobat products to download and launch other malware. It is a HTML document containing Java Script. 88200 bytes.">Trojan-Downloader.JS.Agent.gbj</a>
+	</p>
+	<p>
+		<span class="date mrr8">30 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan-Downloader.JS.Agent.gaf" title="A trojan program that uses the vulnerabilities in Oracle Java and Adobe Reader/Acrobat products to download and launch other malware. It is a HTML document containing Java Script. 88518 bytes.">Trojan-Downloader.JS.Agent.gaf</a>
+	</p>
+	<p>
+		<span class="date mrr8">29 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan.Win32.Jorik.Carberp.ar" title="A trojan that provides the attacker with remote access to the infected computer. It is a Windows application (PE-EXE file). 176640 bytes. UPX packed. Unpacked size - around 245 kB. Written in...">Trojan.Win32.Jorik.Carberp.ar</a>
+	</p>
+	<p>
+		<span class="date mrr8">29 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan.Win32.Agent2.dmvt" title="After launching, the trojan checks for the following branch in the system registry:
+
+[HKCU\Software\Classes\CLSID\{ 82404416-4C60-47F8-BA06-90BA7261C3AE}\InprocServer32]
+
+
+If the branch is missing, it...">Trojan.Win32.Agent2.dmvt</a>
+	</p>
+	<p>
+		<span class="date mrr8">29 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan.Win32.KillFiles.afz" title="A trojan program designed to delete components of the security software Gbuster plugin for Internet Explorer. Implemented in the form of an NT kernel mode driver. 5632 bytes. Written in C++.">Trojan.Win32.KillFiles.afz</a>
+	</p>
+	<p>
+		<span class="date mrr8">24 sty</span>
+		<a href="http://www.securelist.com/en/descriptions/Trojan.Win32.Agent.fajk" title="A trojan program that downloads files from the Internet without the user's knowledge and launches them. It is a Windows application (PE-EXE file). 6656 bytes. Written in C++.
+
+Installation
+
+After...">Trojan.Win32.Agent.fajk</a>
+	</p>
+
+
+
+	</div>
+</div>
+
+<div class="cl"></div>
+
+				</div>
+
+				<!-- polls - right column -->
+				<div class="fr rWidth">
+					<div class="mTitle">
+	<a href="http://www.securelist.pl/polls.html">Ankiety</a>
+</div>
+
+<div id="divPollResults20" class="divPoll divPollSmall">
+        <form method="POST" action="/polls/setAnswer,20.html">
+        <input type="hidden" name="poll" value="20">
+        <p>Pytanie do użytkowników Androida: Czy kiedykolwiek instalowałeś aplikacje spoza Google Play?</p>
+                    <p class="pollQuestion">
+                                    <input id="q69" type="radio" name="answer[]" value="69">
+                                <label for="q69">Tak</label>
+            </p>
+                    <p class="pollQuestion">
+                                    <input id="q70" type="radio" name="answer[]" value="70">
+                                <label for="q70">Nie</label>
+            </p>
+                <button class="submitPollButton">Glosuj</button>
+            </form>
+</div>
+
+<script>
+jQuery(function() {
+    jQuery(".submitPollButton").button().click(function(){
+        jQuery(this).parent('form').submit();
+
+    });
+});
+</script>
+				</div>
+
+				<div class="cl"></div>
+
+			</div></div></div></div>
+
+<div class="mrga"><div class="mrga mWidthB cc_dwn"></div></div>
+<div class="rz"></div>
+<div class="mrga"><div class="mrga mWidthB cc_top"></div></div>
+<div class="mrga">
+	<div class="mrga mWidthB cc_bg">
+		<div class="pd41">
+			<div class="mWidthPd">
+				<!-- padd -->
+				<div style="height:8px" class="h1px"></div>
+
+				<!-- scaner, news - left column -->
+				<div class="fl lWidth">
+					<div class="fl w50">
+						<!-- scaner -->
+						<div class="fl"><div class="pdr36">
+
+		<div class="mTitle">Kaspersky Security Scan</div>
+
+		<p><a href="http://www.kaspersky.pl/kaspersky_security_scan">Kaspersky Security Scan</a> to darmowe i łatwe w obsłudze narzędzie do wykrywania szkodliwych programów, które mogą się ukrywać w Twoim komputerze. Dodatkowo, narzędzie generuje kompletny raport o bezpieczeństwie komputera.</p>
+		<div class="rzline"></div>
+		<p>W celu przeanalizowania bezpieczeństwa komputera możesz także skorzystać z naszych <a href="http://www.kaspersky.pl/download.html?s=trial">bezpłatnych wersji testowych</a>.</p>
+
+	</div>
+</div>
+
+
+					</div>
+					<!-- KL News -->
+					<div class="fl w50">
+						<!--<div class="mTitle">Informacje Kaspersky Lab</div>-->
+						<div class="mTitle"><a href="http://www.kaspersky.pl/about.html?s=news">Informacje Kaspersky Lab</a></div>
+						<div class="pdr36">
+								<p>
+		<span class="date mrr8"> 3 lis</span>
+		<a href="http://www.kaspersky.pl/about.html?s=news&amp;newsid=2689" title="
+Liczba użytkowników internetu, którzy zetknęli się z oprogramowaniem szyfrującym dane i żądającym zapłacenia okupu (tzw. ransomware), wzrosła ponad dwukrotnie w III kwartale 2016 r. i wyniosła 821 865 - tak wynika z kwartalnego raportu Kaspersky Lab dotyczącego ewolucji zagrożeń IT. Liczba osób, które były atakowane w ten sposób, wzrosła już trzeci kwartał z rzędu.
+">Liczba cyberataków wyłudzających okup wzrosła ponad 2,5-krotnie w III kwartale 2016 r.</a>
+	</p>
+	<p>
+		<span class="date mrr8">31 paź</span>
+		<a href="http://www.kaspersky.pl/about.html?s=news&amp;newsid=2688" title="
+Kaspersky Lab opublikował raport dotyczący ataków DDoS przeprowadzanych przy wsparciu sieci zainfekowanych urządzeń (tzw. botnetów), który obejmuje trzeci kwartał 2016 roku i opiera się na danych uzyskanych z systemu Kaspersky DDoS Intelligence*. Raport wskazuje na wzrost zarówno aktywności serwerów zlokalizowanych w Europie Zachodniej, z których przeprowadzane są ataki, jak i liczby zaatakowanych zasobów w tym regionie. Wzrosła również liczba wyrafinowanych ataków DDoS.
+">Ataki DDoS w III kwartale 2016 r.: bardziej wyrafinowane, skoncentrowane na Europie</a>
+	</p>
+	<p>
+		<span class="date mrr8">28 paź</span>
+		<a href="http://www.kaspersky.pl/about.html?s=news&amp;newsid=2687" title="
+Kaspersky Lab został uznany liderem w zestawieniu The Forrester Wave™: Endpoint Security Suites, Q4 2016. Według raportu rozwiązanie firmy Kaspersky Lab spełnia większość wymogów dotyczących rozwiązań bezpieczeństwa IT dla korporacji w ściśle zintegrowanym pakiecie. The Forrester Wave oceniał Kaspersky Endpoint Security for Business - zintegrowane rozwiązanie zarządzania bezpieczeństwem.
+">Kaspersky Lab uznany liderem przez niezależną organizację badawczą</a>
+	</p>
+	<p>
+		<span class="date mrr8">27 paź</span>
+		<a href="http://www.kaspersky.pl/about.html?s=news&amp;newsid=2686" title="
+Z najnowszego badania przeprowadzonego przez Kaspersky Lab wynika, że ponad połowa urządzeń mobilnych na całym świecie jest podatna na cyberzagrożenia z powodu braku odpowiedniej ochrony. Badanie odzwierciedla brak świadomości odnośnie tego, jak skutecznie chronić urządzenia mobilne.
+">Tylko połowa urządzeń mobilnych na świecie jest zabezpieczana przed cyberatakami - tak wynika z badania firmy Kaspersky Lab</a>
+	</p>
+	<p>
+		<span class="date mrr8">26 paź</span>
+		<a href="http://www.kaspersky.pl/about.html?s=news&amp;newsid=2685" title="
+Kaspersky Lab zorganizował swój coroczny europejski weekend cyberbezpieczeństwa, który odbył się na Malcie w dniach 20-23 października. Udział w wydarzeniu wzięli eksperci z firmy, zaproszeni prelegenci z holenderskiej policji, dziennikarze oraz przedstawiciele biznesu z całego regionu. Tego roku jednym z głównych tematów konferencji było oprogramowanie ransomware - zagrożenie, które wystawia na poważne ryzyko finanse i dane zarówno klientów indywidualnych, jak i firm - ze szczególnym uwzględnieniem potrzeb małych i średnich firm w zakresie bezpieczeństwa IT. Eksperci z Kaspersky Lab przedstawili także obecne cyberagrożenia o zasięgu globalnym i regionalnym, a także trendy w zakresie bezpieczeństwa i omówili główne wektory ataków w regionie.
+">Kaspersky Lab wskazuje główne wektory zagrożeń dla Europy</a>
+	</p>
+
+						</div>
+					</div>
+
+					<div class="cl"></div>
+
+				</div>
+
+				<div class="fr rWidth">
+
+
+					<!-- facebook -->
+					<div class="fb-like-box clear fl" data-href="http://www.facebook.com/KasperskyLabPolska" data-width="293" data-height="310" data-show-faces="true" data-stream="false" data-header="false" style="clear: both"></div>
+
+				</div>
+
+				<div class="cl"></div>
+
+				<!-- padd -->
+				<div style="height:24px" class="h1px"></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+			<!-- Footer -->
+			<div class="mrga"><div class="mrga mWidthB cc_bg"><div class="pd5"><div class="mWidth">
+				<!-- footer -->
+				<div class="footer">
+					<div class="pdl36 pdr36">
+						<div class="fl" style="width: 300px;">
+							<p>
+								
+								<a href="http://www.kaspersky.pl/"><img src="data:image/gif;base64,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" alt="Kaspersky Anti-virus Logo" title="Kaspersky Anti-virus Logo"></a>
+							</p>
+							<p>
+								<span class="fl" style="display:block;width:15px;">&copy;</span>Kaspersky Lab<br>
+								<span class="fl" style="display:block;width:15px;height:8px;"></span>Kaspersky Lab Polska Sp. z o.o.
+							</p>
+						</div>
+
+						<div class="fr">
+							<a style="text-decoration:none" href="http://www.kaspersky.pl/" title="kaspersky.pl"><h4>kaspersky.pl</h4></a>
+
+<p><a href="http://www.kaspersky.pl/products.html">Produkty i Usługi</a></p>
+<p><a href="http://www.kaspersky.pl/store.html">Sklep</a></p>
+<p><a href="http://www.kaspersky.pl/cyberthreats.html">Zagrożenia</a></p>
+<p><a href="http://www.kaspersky.pl/download.html">Do pobrania</a></p>
+<p><a href="http://www.kaspersky.pl/services.html?s=support">Pomoc techniczna</a></p>
+<p><a href="http://www.kaspersky.pl/partners.html">Partnerzy</a></p>
+<p><a href="http://www.kaspersky.pl/about.html">O firmie</a></p>
+						</div>
+						<div class="fr pdr36">
+							<a style="text-decoration:none" href="http://www.securelist.pl/" title="securelist.pl"><h4>securelist.pl</h4></a>
+
+	<p><a href="/analysis.html" class="" title="Analizy"  >Analizy</a></p>
+	<p><a href="/statistics.html" class="" title="Statystyki"  >Statystyki</a></p>
+	<p><a href="/descriptions.html" class="" title="Encyklopedia"  >Encyklopedia</a></p>
+	<p><a href="/glossary.html" class="" title="Słownik"  >Słownik</a></p>
+
+						</div>
+						<div class="cl"></div>
+					</div>
+				</div>
+			</div></div></div></div>
+
+
+
+		</div>
+	</body>
+</html>
