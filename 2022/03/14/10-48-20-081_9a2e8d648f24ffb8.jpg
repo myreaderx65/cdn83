@@ -1,0 +1,430 @@
+<?xml version="1.0" ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta name="google-site-verification" content="0dzb3qOPh6VP8-y4DLHhfm_fzbK_L4RQtLkP7pm9TvE" />
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://static.inopressa.ru/css/ino2.css?v=1" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss/"/>
+	<meta name="description" content="Инопресса:: " />
+	
+	<meta name="keywords" content="иностранная пресса, газета, издания, news, news, newspaper, Daily Express, The Times, BBC, The Guardian, The Sunday Times, Der Spiegel, La Stampa, Inopressa, Forbes, CNN, The Washington Post, Le Monde" />
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=windows-1251"/>
+	
+	
+	
+	
+		<link rel="shortcut icon" href="https://static.inopressa.ru/img/favicon_inopressa5.ico"/>
+	<style type="text/css">h3 {background-image: url('https://static.inopressa.ru/img/g7.gif'); background-repeat: repeat-x; background-position: center}</style>
+	
+	
+		<script type="text/javascript" src="https://static.inopressa.ru/static/adfox.asyn.code.ver3.js"> </script> 
+	<script type="text/javascript" src="https://static.inopressa.ru/static/adfox.asyn.code.scroll.js"> </script> 
+	<script type="text/javascript" src="https://static.inopressa.ru/static/bowser.js"></script>
+	<script type="text/javascript" src="https://static.inopressa.ru/static/adfox.test.js"></script> 
+
+<script type="text/javascript">
+
+var currentUrl = window.location.href;
+var mobileUrl ="";
+if(! currentUrl.includes("inopressa.ru/pwa")){
+    mobileUrl = currentUrl.replace("inopressa.ru", "inopressa.ru/pwa");
+
+    if(bowser.mobile) {
+	 location.href = mobileUrl;
+    }
+    
+}
+
+
+if(bowser.tablet) {
+     // alert("tablet");
+     //location.href = "https://inopressa.ru/";
+}
+
+</script>
+
+<!--# include virtual="/banners/b4b7dd894574bbf8228ada5531775bba" --> 
+<!--# include virtual="/banners/8fde00c60436b3de367ee05547ced15d" --> 
+
+
+<meta name="google-site-verification" content="hwpZ6kaOF_8uXmXiNqkY93cnvbei9jbzq0xLMwoGQ70" />
+<style>
+
+
+
+</style>
+</head><!--WSFGH-->
+<body style="vertical-align:top;margin:0px;padding:0px;">
+
+
+
+
+<script type="text/javascript">
+console.log('canRunAds=' + window.canRunAds);
+</script>
+
+
+
+
+
+
+
+<!--# include virtual="/banners/752bdaa83c0f844d617abbcf88de8cd7" -->  
+<!-- end full screen //-->
+
+
+
+<table align="center" cellspacing="0" cellpadding="0" border="0" style="width:1040px;vertical-align:top;padding:0px;border-collapse:collapse"><tr><td style="vertical-align:top;padding:0px 0px 10px 0px;margin:0px;border-collapse:collapse">
+
+<!--# include virtual="/banners/b9648dcc816f9542289f39d2551edfc1" -->
+
+
+
+
+
+
+<!--# include virtual="/banners/2251aaef31a3513e4cc13d7880b22cf9" -->
+
+
+</div>
+	</td></tr>
+	<tr><td>
+	
+
+<div class="pagetitle">
+<div class="forms">	
+
+<form action="/redir" method="get">
+<table align="center" class="topsearchtable">
+	<tr>
+		<td><span class="topsearch">Архив</span></td>
+		<td> 
+								<select class="toparchive" name="day" style="width: 43px">
+								<option value="01" >1</option><option value="02" >2</option><option value="03" >3</option><option value="04" >4</option><option value="05" >5</option><option value="06" >6</option><option value="07" >7</option><option value="08" >8</option><option value="09" >9</option><option value="10" >10</option><option value="11" >11</option><option value="12" >12</option><option value="13" >13</option><option value="14" selected="selected">14</option><option value="15" >15</option><option value="16" >16</option><option value="17" >17</option><option value="18" >18</option><option value="19" >19</option><option value="20" >20</option><option value="21" >21</option><option value="22" >22</option><option value="23" >23</option><option value="24" >24</option><option value="25" >25</option><option value="26" >26</option><option value="27" >27</option><option value="28" >28</option><option value="29" >29</option><option value="30" >30</option><option value="31" >31</option></select>
+		</td>
+		<td style="padding-left:1px; padding-right:1px">
+			<select class="toparchive" name="mon"  style="width: 82px">
+								<option value="jan"  >января</option><option value="feb"  >февраля</option><option value="mar"  selected="selected">марта</option><option value="apr"  >апреля</option><option value="may"  >мая</option><option value="jun"  >июня</option><option value="jul"  >июля</option><option value="aug"  >августа</option><option value="sep"  >сентября</option><option value="oct"  >октября</option><option value="nov"  >ноября</option><option value="dec"  >декабря</option></select>
+		</td>
+		<td><select class="toparchive" name="year"  style="width: 57px">
+								<option value="1999"  >1999</option>
+								
+								<option value="2000"  >2000</option>
+								
+								<option value="2001"  >2001</option>
+								
+								<option value="2002"  >2002</option>
+								
+								<option value="2003"  >2003</option>
+								
+								<option value="2004"  >2004</option>
+								
+								<option value="2005"  >2005</option>
+								
+								<option value="2006"  >2006</option>
+								
+								<option value="2007"  >2007</option>
+								
+								<option value="2008"  >2008</option>
+								
+								<option value="2009"  >2009</option>
+								
+								<option value="2010"  >2010</option>
+								
+								<option value="2011"  >2011</option>
+								
+								<option value="2012"  >2012</option>
+								
+								<option value="2013"  >2013</option>
+								
+								<option value="2014"  >2014</option>
+								
+								<option value="2015"  >2015</option>
+								
+								<option value="2016"  >2016</option>
+								
+								<option value="2017"  >2017</option>
+								
+								<option value="2018"  >2018</option>
+								
+								<option value="2019"  >2019</option>
+								
+								<option value="2020"  >2020</option>
+								
+								<option value="2021"  >2021</option>
+								
+								<option value="2022"  selected="selected">2022</option>
+								</select></td>
+		<td>
+		</td>
+		<td><input type="image" title="" alt="" name="" src="https://static.inopressa.ru/img/suche.gif" style="width: 13px;height: 8px"/></td>
+		<td>
+		</td>
+		
+		
+	</tr>
+</table>
+</form>	
+
+<div class="littlegraylinetop"><img src="https://static.inopressa.ru/img/b.gif"  width="1" height="1" style="border:0" alt=""/></div>		
+
+<form action="/search" method="get">
+<table align="center" class="topsearchtable">
+	<tr>
+		<td><span class="topsearch">Поиск</span></td>
+		<td><input type="text" class="subject" name="search"  value="" /></td>
+		<td><input type="image" src="https://static.inopressa.ru/img/suche.gif"  align="top" style="width: 13px; height: 8px; padding:0px; border: none;"  alt="Search"/></td>
+	</tr>
+</table>
+</form>	
+
+
+</div> 
+
+<div class="letterhead" style="padding:0px">
+				
+				<a class="hhh" href="/"><img src="https://static.inopressa.ru/img/inopressa-logo-light.gif"  style="width: 360px;height: 80px; border: none;" alt="Inopressa"/><h1>Иностранная пресса о России и не только</h1></a>
+					
+			
+</div>
+<div class="pressdigest">
+	
+			
+	
+	<table align="left"><tr>
+		<td><table><tr><td>Press digest<!--6561--></td></tr><tr><td nowrap>26 ноября 2021 г.</td></tr></table></td>
+		
+<!--
+		<td><img src="https://static.inopressa.ru/img/b.gif"  style="width: 42px;height: 4px; border: 0;" alt=""/></td>
+		<td><a href="http://pda.inopressa.ru"><img src="https://static.inopressa.ru/img/icon-pda.gif"  style="width: 53px;height: 61px; border: 0;" title="Версия для PDA" alt="PDA"/></a></td>
+		<td><img src="https://static.inopressa.ru/img/b.gif"  style="width: 5px;height: 4px; border: 0;" alt=""/></td>
+		<td><a href="http://www.inopressa.ru/info/wap"><img src="https://static.inopressa.ru/img/icon-wap.gif"  style="width: 53px;height: 61px; border: 0;" title="Версия для WAP" alt="WAP"/></a></td>		
+//-->
+				 
+				
+		
+					
+	</tr></table>
+</div>
+
+</div>
+
+<table class="blackline">
+				<tr>
+					<td><img src="https://static.inopressa.ru/img/b.gif"  style="width: 580px;height: 4px; border: 0;" alt=""/></td>
+				</tr>
+</table>
+
+
+	
+		<table class="pagecontent">
+		<tr>
+		<td class="alignleft" style="width:720px">
+			<div class="article">
+<div class="topic">	
+	
+	<div class="maincaption" style="background-image: url('https://static.inopressa.ru/img/globe6.png'); -background-image: url('https://static.inopressa.ru/img/globe6.gif'); background-repeat: no-repeat">404</div>
+
+
+	<h2>Страница с таким адресом отсутствует на сайте</h2>
+	
+
+
+</div>
+
+<div class="topic">	
+
+	<div class="body">Попробуйте вернуться на <a href="/">главную</a> страницу сайта и начать все сначала</div>
+	<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		
+		</div>	
+
+</div>
+
+
+</div>	
+					
+					<div class="grayline"><img src="https://static.inopressa.ru/img/b.gif" style="width:1px; height:2px" alt=""/></div>
+					<!--# include virtual="/banners/7e648cccc23ca9ed02ad18424cda3079" --> 
+
+					
+				
+		</td>
+			
+			
+			<td class="alignright" style="background-image: url('https://static.inopressa.ru/img/l.gif'); background-repeat: repeat-y">
+			<!-- ГГГГГГ ГГГГГГГ -->	
+				<table class="cleartable">
+				<tr>
+					<td style="width:13px"><img src="https://static.inopressa.ru/img/b.gif" style="width:13px" alt="" /></td>
+					<td class="alignleft">
+					
+			
+				<!--# include virtual="/banners/2a3ee8bb9b7c4e905e4b0c087582bac1" --> 
+	
+				
+					
+					
+					
+						
+					<div class="articlesday" style="background-image: url('https://static.inopressa.ru/img/ugolok-r.gif'); background-repeat: no-repeat; background-position: right"><a href="/today" style="background-image: url('https://static.inopressa.ru/img/globe6.png'); -background-image: url('https://static.inopressa.ru/img/globe6.gif'); background-repeat: no-repeat">Все статьи за сегодня</a></div>
+					<div class="articlesrubric" style="background-image: url('https://static.inopressa.ru/img/ugolok-g.gif'); background-repeat: no-repeat; background-position: right"><div class="withoutlink" style="background-image: url('https://static.inopressa.ru/img/globe6.png'); -background-image: url('https://static.inopressa.ru/img/globe6.gif'); background-repeat: no-repeat">Статьи по разделам</div></div>
+		
+		
+						<div class="rubriclist">
+								
+								<h4><a href="/rubrics/russia">В России</a></h4>
+									
+								<h4><a href="/rubrics/sport">Спорт</a></h4>
+									
+								<h4><a href="/rubrics/culture">История и культура</a></h4>
+									
+								<h4><a href="/rubrics/incident">Скандалы и происшествия</a></h4>
+									
+								<h4><a href="/rubrics/peace">В мире</a></h4>
+									
+								<h4><a href="/rubrics/economics">Экономика</a></h4>
+									
+								<h4><a href="/rubrics/war">Война</a></h4>
+									
+								<h4><a href="/rubrics/different">Разное</a></h4>
+									
+								<h4><a href="/rubrics/science">Наука и жизнь</a></h4>
+									
+								<h4><a href="/rubrics/extremal">Экстремальная ситуация</a></h4>
+									
+								<h4><a href="/rubrics/neareast">Ближний Восток</a></h4>
+									
+								<h4><a href="/rubrics/law">Закон и преступность</a></h4>
+									
+								<h4><a href="/rubrics/analytics">Аналитика</a></h4>
+									
+						</div>
+						<!--# include virtual="/banners/e640c541fa18869e903b02751f7756e7" --> 	
+						
+							
+					
+					
+					<div class="grayline"><img src="https://static.inopressa.ru/img/b.gif" style="width:1px; height:2px" alt="" /></div>
+					 <!--# include virtual="/banners/e7dd30506d3d058ef9add876a3167709" --> 
+ 
+					</td>
+				</tr>
+				</table>
+			<!-- /ГГГГГГ ГГГГГГГ -->	
+		</td>
+	</tr>
+	
+</table>
+
+
+	
+
+<table style="width:100%;vertical-align:top">
+
+<tr><td colspan="2" style="padding-left:2px;"><div class="adriverBanner" id="baseline" data-Adriver="onScroll: true"></div> <div class="grayline"><img src="https://static.inopressa.ru/img/b.gif" style="width:1px; height:2px" alt=""></div></td><td></td></tr>
+<tr><td style="padding-top:15px;vertical-align:top"  width="143">
+
+<noindex>
+
+
+
+<!--# include virtual="/banners/184a16f5104bf77f3753c56d0af25aa3" -->
+
+</noindex>
+
+
+</td><td style="vertical-align:top" width="570">
+
+
+
+<div class="about" style="display:inline; font-family: Arial,'Courier New',Courier,sans-serif,serif; font-size: 10px">
+
+
+<div style="padding: 0px 0px 0px">Inopressa: Иностранная пресса о событиях в России и в мире</div>	
+	
+<noindex>
+
+<div style="padding: 3px 0px 0px">	
+<!-- 
+img src="http://static.newsru.com/img/misc/reuters.gif" alt="" style="vertical-align: top; margin: 0px 3px 0px 0px; font-size:10px; border: 0px none; padding: 0px"  height="14" width="80" 
+//-->
+
+
+</div>
+
+<div style="padding: 2px 0 0 0">	
+
+	<span style="line-height: 5px">
+	<a rel="nofollow" href="/personal">Политика конфиденциальности</a><br />
+	</span>
+
+	<span style="line-height: 20px">
+	<a rel="nofollow" href="/feedback">Связаться с редакцией</a><br />
+	</span>
+
+
+Все текстовые материалы сайта Inopressa.ru доступны по лицензии: <br /><a href="https://creativecommons.org/licenses/by/4.0/deed.ru">Creative Commons Attribution 4.0 International</a>, если не указано иное.
+<br />
+&copy; 1999-2022 InoPressa.ru
+</div>
+
+
+
+
+
+
+
+</div>
+</noindex>
+<div style="padding: 3px 0px 0px"></div>
+
+	<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		
+		</div>
+
+
+</div>
+
+</td>
+<td class="alignright" style="background-image: url('https://static.inopressa.ru/img/l.gif'); background-repeat: repeat-y">
+			<!-- Правая колонка -->	
+				<table class="cleartable">
+				<tr>
+					<td style="width:13px"><img src="https://static.inopressa.ru/img/b.gif" style="width:13px" alt="" /></td>
+					<td class="alignleft">
+					<div class="banner"><img src="https://static.inopressa.ru/img/b.gif" width="240" height="1" alt="adv" /></div>
+		
+	
+					</td>
+				</tr>
+				</table>
+			<!-- /Правая колонка -->
+<!--# include virtual="/banners/c866f664e65b32d3891e8ad4deca3054" -->
+
+		</td></tr>
+
+</table>
+
+
+</td></tr></table>
+
+<!--- CACHE 2022-03-14 13:44:13 ---></body>
+</html>
